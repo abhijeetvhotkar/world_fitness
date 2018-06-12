@@ -1,0 +1,177 @@
+/* Add Member button */
+.addMember p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.addMember input{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 10%;
+    margin-bottom: 0px;
+}
+
+.addMember input[type="button"], input[type="submit"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.addMember input[value="Add Member"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b20000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.addMember input[value="Update Member"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.addMember input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.addMember input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+
+.addMember a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.addMember a:hover
+{
+    color: #39dc79;
+}
+
+html {
+  overflow: scroll;
+}
+
+#membersTable {
+  margin-top: 1%;
+}
+
+#addMemberForm {
+  margin: 0 auto;
+  text-align: left;
+}
+
+#addMemberForm input[type="text"], input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 50%;
+    color: #000000;
+    font-size: 16px;
+}
+
+#addMemberForm input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 50%;
+    color: #000000;
+    font-size: 16px;
+}
+
+#addMemberForm p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+#addMemberForm input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#addMemberForm input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+#addMemberForm a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+#addMemberForm a:hover
+{
+    color: #39dc79;
+}
+
+select {
+  margin-bottom: 2%;
+}
+
+
+#addMemberForm input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 50%;
+    background: #b20000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#addMemberForm input[id="updateMember"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 50%;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+#addMemberForm input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.form-group.required .control-label:after {
+   content:" *";
+   color:red;
+   font-size: 15px;
+}
